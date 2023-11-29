@@ -27,7 +27,6 @@
           ./module/applications.nix
           ./module/network.nix
           ./module/gnome.nix
-          ./module/develop-environment.nix
         ];
       };
     };

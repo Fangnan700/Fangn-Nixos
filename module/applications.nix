@@ -15,7 +15,6 @@
     tree
     rpi-imager
     google-chrome
-    telegram-desktop
   ];
 
   # Remove Xterm
