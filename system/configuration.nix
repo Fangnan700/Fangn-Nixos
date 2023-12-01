@@ -48,10 +48,16 @@
   
   # Input method settings.
   i18n.inputMethod = {
-    enabled = "ibus";
-    ibus.engines = with pkgs.ibus-engines; [
-      libpinyin
+    enabled = "fcitx5";
+    fcitx5.addons = with pkgs; [
+      fcitx5-rime
+      fcitx5-chinese-addons
     ];
+  
+    #enabled = "ibus";
+    #ibus.engines = with pkgs.ibus-engines; [
+    #  libpinyin
+    #];
   };
 
   # Fonts settings.
@@ -75,6 +81,14 @@
     alsa.support32Bit = true;
     pulse.enable = true;
   };
+
+
+
+  ######################
+  # Bluetooth settings #
+  ######################
+  hardware.bluetooth.enable = true;
+  hardware.bluetooth.powerOnBoot = true;
 
   
   ###############################

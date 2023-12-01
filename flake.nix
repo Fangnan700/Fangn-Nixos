@@ -21,12 +21,14 @@
         }; 
        
         modules = [
-          ./system/hardware-configuration.nix
-          ./system/gpu-configuration.nix
           ./system/configuration.nix
-          ./module/applications.nix
-          ./module/network.nix
-          ./module/gnome.nix
+          ./system/hardware.nix
+          ./system/disk.nix
+          ./system/environment.nix
+          ./module/gpu/disable.nix
+          ./module/gnome/default.nix
+          ./module/network/default.nix
+          ./module/software/default.nix
         ];
       };
     };

@@ -25,6 +25,7 @@
     gnomeExtensions.move-clock
     gnomeExtensions.rounded-window-corners
     gnomeExtensions.appindicator
+    gnomeExtensions.kimpanel
     gnome.gnome-tweaks
   ];
 

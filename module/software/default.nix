@@ -15,6 +15,8 @@
     tree
     rpi-imager
     google-chrome
+    go-musicfox
+    neofetch
   ];
 
   # Remove Xterm
