@@ -1,2 +1,2 @@
 # Fangn-Nixos
-My NixOS flakes.
+My NixOS configuration.
