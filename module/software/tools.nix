@@ -7,20 +7,22 @@
     vim
     tree
     rpi-imager
-    google-chrome
     neofetch
+    google-chrome
 
-    pkgs-unstable.docker
-    pkgs-unstable.nvidia-docker
+    pkgs-unstable.jetbrains.pycharm-professional
   ];
-
+  
   # Enable clash-verge
   programs.clash-verge = {
     enable = true;
+    tunMode = true;
     autoStart = true;
   };
 
-  # Enable docker daemon
-  virtualisation.docker.enable = true;
-  virtualisation.docker.enableNvidia = true;
+  # Enable nvidia-docker
+  # virtualisation.docker = {
+  #   enable = true;
+  #   enableNvidia = true;
+  # };
 }

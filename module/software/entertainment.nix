@@ -4,5 +4,6 @@
   environment.systemPackages = with pkgs; [
    qq
    go-musicfox
+   telegram-desktop
   ];
 }

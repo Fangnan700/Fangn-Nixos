@@ -6,7 +6,7 @@
 
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.11";
     nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
   };
  
@@ -26,12 +26,11 @@
           ./system/hardware.nix
           ./system/disk.nix
           ./system/environment.nix
-          ./module/gpu/sync-mode.nix
+          ./module/gpu/stable-opengl.nix
           ./module/gnome/default.nix
           ./module/network/default.nix
           ./module/software/default.nix
-          ./module/software/tool.nix 
-          ./module/software/develop.nix 
+          ./module/software/tools.nix 
           ./module/software/entertainment.nix 
         ];
       };

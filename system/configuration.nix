@@ -10,7 +10,7 @@
   ##################
   
   # System version.
-  system.stateVersion = "23.05";
+  system.stateVersion = "23.11";
 
   # Enable CUPS to print documents.
   services.printing.enable = true; 
@@ -63,7 +63,7 @@
   # Fonts settings.
   fonts = {
     fontDir.enable = true;
-    fonts = with pkgs; [
+    packages = with pkgs; [
       noto-fonts
       source-han-sans
       source-han-serif
@@ -81,7 +81,6 @@
     alsa.support32Bit = true;
     pulse.enable = true;
   };
-
 
 
   ######################

@@ -21,9 +21,7 @@
 
   # Gnome apps.
   environment.systemPackages = with pkgs; [
-    gnomeExtensions.resource-monitor
     gnomeExtensions.move-clock
-    gnomeExtensions.rounded-window-corners
     gnomeExtensions.appindicator
     gnomeExtensions.kimpanel
     gnome.gnome-tweaks
