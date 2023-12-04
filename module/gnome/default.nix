@@ -24,6 +24,7 @@
     gnomeExtensions.move-clock
     gnomeExtensions.appindicator
     gnomeExtensions.kimpanel
+    gnomeExtensions.blur-my-shell
     gnome.gnome-tweaks
   ];
 

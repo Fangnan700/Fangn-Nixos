@@ -22,16 +22,12 @@
         }; 
        
         modules = [
-          ./system/configuration.nix
-          ./system/hardware.nix
-          ./system/disk.nix
-          ./system/environment.nix
-          ./module/gpu/stable-opengl.nix
-          ./module/gnome/default.nix
-          ./module/network/default.nix
-          ./module/software/default.nix
-          ./module/software/tools.nix 
-          ./module/software/entertainment.nix 
+          ./system
+          ./module/gpu
+          ./module/gnome
+          ./module/network
+          ./module/software
+          ./module/develop
         ];
       };
     };

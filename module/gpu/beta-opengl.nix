@@ -41,7 +41,7 @@ with lib;
       powerManagement.enable = true; # Fix Suspend issue
 
       # Select the appropriate driver version for your GPU
-      package = config.boot.kernelPackages.nvidiaPackages.stable;
+      package = config.boot.kernelPackages.nvidiaPackages.beta;
     };
   };
 

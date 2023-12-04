@@ -9,4 +9,9 @@
 
   # Remove Xterm
   services.xserver.excludePackages = [ pkgs.xterm ];
+
+  imports = [
+    ./entertainment.nix
+    ./tools.nix
+  ];
 }

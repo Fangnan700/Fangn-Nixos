@@ -6,23 +6,26 @@
     git
     vim
     tree
+    htop
     rpi-imager
     neofetch
+    typora
     google-chrome
-
-    pkgs-unstable.jetbrains.pycharm-professional
+    lazydocker
+    jetbrains.clion
+    jetbrains.goland
+    jetbrains.pycharm-professional
   ];
   
   # Enable clash-verge
   programs.clash-verge = {
     enable = true;
-    tunMode = true;
     autoStart = true;
   };
 
   # Enable nvidia-docker
-  # virtualisation.docker = {
-  #   enable = true;
-  #   enableNvidia = true;
-  # };
+  virtualisation.docker = {
+    enable = true;
+    enableNvidia = true;
+  };
 }
