@@ -3,6 +3,7 @@
 {
   environment.systemPackages = with pkgs; [
    qq
+   mpv
    go-musicfox
    telegram-desktop
   ];

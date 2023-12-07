@@ -11,7 +11,6 @@
     neofetch
     typora
     google-chrome
-    lazydocker
     jetbrains.clion
     jetbrains.goland
     jetbrains.pycharm-professional
