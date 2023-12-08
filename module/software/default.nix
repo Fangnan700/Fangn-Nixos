@@ -12,6 +12,7 @@
 
   imports = [
     ./entertainment.nix
+    ./develop.nix
     ./tools.nix
   ];
 }

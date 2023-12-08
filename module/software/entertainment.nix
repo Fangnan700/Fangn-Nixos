@@ -2,9 +2,9 @@
 
 {
   environment.systemPackages = with pkgs; [
-   qq
-   mpv
-   go-musicfox
-   telegram-desktop
+    qq
+    vlc
+    go-musicfox
+    telegram-desktop
   ];
 }

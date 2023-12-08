@@ -27,7 +27,6 @@
           ./module/gnome
           ./module/network
           ./module/software
-          ./module/develop
         ];
       };
     };
