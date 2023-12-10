@@ -1,4 +1,9 @@
-{ config, pkgs, pkgs-unstable, ...}:
+{ config
+, pkgs
+, pkgs-unstable
+, pkgs-fangn
+, ...
+}:
 
 {
   # Allow unfree packages
@@ -12,7 +17,7 @@
 
   imports = [
     ./entertainment.nix
-    ./develop.nix
+    ./development.nix
     ./tools.nix
   ];
 }

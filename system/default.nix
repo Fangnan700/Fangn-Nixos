@@ -1,7 +1,7 @@
 {
   imports = [
-    ./configuration.nix 
-    ./environment.nix  
+    ./config.nix 
+    ./env.nix  
     ./hardware.nix
     ./disk.nix
     ./tuxedo.nix 

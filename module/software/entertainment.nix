@@ -1,10 +1,18 @@
-{ config, pkgs, pkgs-unstable, ...}:
+{ config
+, pkgs
+, pkgs-unstable
+, pkgs-fangn
+, ...
+}:
 
 {
   environment.systemPackages = with pkgs; [
-    qq
     vlc
+    steam
+    steam-run
     go-musicfox
     telegram-desktop
+
+    pkgs-fangn.qq
   ];
 }
