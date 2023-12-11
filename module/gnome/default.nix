@@ -25,7 +25,6 @@
     gnomeExtensions.appindicator
     gnomeExtensions.kimpanel
     gnomeExtensions.blur-my-shell
-    gnomeExtensions.pano
     gnome.gnome-tweaks
   ];
 

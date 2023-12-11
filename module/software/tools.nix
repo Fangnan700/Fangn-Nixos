@@ -14,13 +14,15 @@
     htop
     rpi-imager
     neofetch
-    typora
     google-chrome
     jetbrains.clion
     jetbrains.goland
     jetbrains.pycharm-professional
+
+    pkgs-fangn.typora-unlock
+    pkgs-fangn.apifox
   ];
-  
+
   # Enable clash-verge
   programs.clash-verge = {
     enable = true;
