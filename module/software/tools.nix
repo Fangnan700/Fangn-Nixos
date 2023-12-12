@@ -1,8 +1,9 @@
 { config
+, lib
 , pkgs
 , pkgs-unstable
 , pkgs-fangn
-,...
+, ...
 }:
 
 {
@@ -14,25 +15,24 @@
     htop
     rpi-imager
     neofetch
-    google-chrome
     jetbrains.clion
     jetbrains.goland
     jetbrains.pycharm-professional
+    
+    pkgs-unstable.google-chrome
 
     pkgs-fangn.typora-unlock
+    pkgs-fangn.clash-verge
     pkgs-fangn.apifox
   ];
-
-  # Enable clash-verge
-  programs.clash-verge = {
-    enable = true;
-    autoStart = true;
-  };
 
   # Enable nvidia-docker
   virtualisation.docker = {
     enable = true;
-    enableNvidia = true;
+    enableNvidia = true ;
+    daemon.settings = {
+      bip = "192.168.88.1/24";
+    };
   };
 
   # Enable virtualbox
