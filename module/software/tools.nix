@@ -15,11 +15,12 @@
     htop
     rpi-imager
     neofetch
-    jetbrains.clion
-    jetbrains.goland
-    jetbrains.pycharm-professional
     
     pkgs-unstable.google-chrome
+    pkgs-unstable.jetbrains.clion
+    pkgs-unstable.jetbrains.goland
+    pkgs-unstable.jetbrains.webstorm
+    pkgs-unstable.jetbrains.pycharm-professional
 
     pkgs-fangn.typora-unlock
     pkgs-fangn.clash-verge

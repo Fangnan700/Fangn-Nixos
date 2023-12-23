@@ -8,8 +8,6 @@
 {
   environment.systemPackages = with pkgs; [
     vlc
-    steam
-    steam-run
     go-musicfox
     telegram-desktop
 
