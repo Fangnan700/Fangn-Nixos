@@ -13,9 +13,17 @@
     vim
     tree
     htop
+    hexo-cli
     rpi-imager
     neofetch
-    
+
+    # teseract-ocr
+    xclip
+    tesseract
+    imagemagick
+    gnome.gnome-screenshot
+
+    pkgs-unstable.drawio
     pkgs-unstable.google-chrome
     pkgs-unstable.jetbrains.clion
     pkgs-unstable.jetbrains.goland
@@ -38,5 +46,4 @@
 
   # Enable virtualbox
   virtualisation.virtualbox.host.enable = true;
-  users.extraGroups.vboxusers.members = [ "user-with-access-to-virtualbox" ];
 }

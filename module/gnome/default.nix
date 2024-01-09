@@ -23,9 +23,12 @@
   environment.systemPackages = with pkgs; [
     gnomeExtensions.move-clock
     gnomeExtensions.appindicator
-    gnomeExtensions.kimpanel
     gnomeExtensions.blur-my-shell
+    gnomeExtensions.kimpanel
     gnome.gnome-tweaks
+
+    whitesur-gtk-theme
+    whitesur-icon-theme
   ];
 
   # Disable gnome default apps.
@@ -53,4 +56,6 @@
     pkgs.gnome-tour
     pkgs.gnome-photos
   ];
+
+  programs.gpaste.enable = true;
 }

@@ -9,6 +9,8 @@
   environment.systemPackages = with pkgs; [
     go
     gcc
+    jdk
+    python3
   ];
 }
 

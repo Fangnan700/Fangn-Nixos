@@ -7,7 +7,7 @@
     fangn-pkgs.url = "github:/Fangnan700/Fangn-Pkgs";
   };
  
-  outputs = { self, nixpkgs, nixpkgs-unstable, fangn-pkgs, ... }:
+  outputs = { self, nixpkgs, nixpkgs-unstable, fangn-pkgs, ... } @ inputs:
     let
       system = "x86_64-linux";
     in
@@ -15,6 +15,7 @@
       nixosConfigurations = {
         "fangn-nixos" = nixpkgs.lib.nixosSystem rec {
           specialArgs = {
+            inherit inputs; 
             pkgs-unstable = import nixpkgs-unstable {
               inherit system;
               config.allowUnfree = true;

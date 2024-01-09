@@ -104,7 +104,7 @@
   }; 
 
   # Reduce the boot configurations
-  boot.loader.systemd-boot.configurationLimit = 3;
+  boot.loader.systemd-boot.configurationLimit = 8;
 
 
   #########################

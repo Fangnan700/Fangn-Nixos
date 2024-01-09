@@ -7,7 +7,10 @@
 
 {
   # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
+  nixpkgs.config = {
+    allowUnfree = true;
+    cudaSupport = true;
+  };
   
   # Enable flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
