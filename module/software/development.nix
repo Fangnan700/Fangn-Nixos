@@ -8,9 +8,15 @@
 {
   environment.systemPackages = with pkgs; [
     go
-    gcc
-    jdk
-    python3
+
+    # pkgs-unstable.etcd
+    # pkgs-unstable.redis
+    # pkgs-unstable.mysql80
+
+    pkgs-unstable.protobuf
+    pkgs-unstable.go-protobuf
+    pkgs-unstable.protoc-gen-go
+    pkgs-unstable.protoc-gen-go-grpc
   ];
 }
 

@@ -25,6 +25,7 @@
     gnomeExtensions.appindicator
     gnomeExtensions.blur-my-shell
     gnomeExtensions.kimpanel
+    # gnomeExtensions.rounded-window-corners
     gnome.gnome-tweaks
 
     whitesur-gtk-theme

@@ -1,3 +1,4 @@
 # Fangn-Nixos
-![image-20231205000114062](https://yvling-typora-image-1257337367.cos.ap-nanjing.myqcloud.com/typora/image-20231205000114062.png)
+
+![image-20240203001658541](https://yvling-typora-image-1257337367.cos.ap-nanjing.myqcloud.com/typora/image-20240203001658541.png)
 

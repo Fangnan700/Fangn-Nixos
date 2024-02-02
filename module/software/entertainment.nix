@@ -12,7 +12,7 @@
     telegram-desktop
 
     pkgs-fangn.qq
-    pkgs-fangn.feishu
-    pkgs-fangn.wine-wechat-x86
+    # pkgs-fangn.feishu
+    # pkgs-fangn.wine-wechat-x86
   ];
 }

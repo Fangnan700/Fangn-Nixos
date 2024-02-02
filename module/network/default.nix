@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 
 {
-  networking.hostName = "fangn-nixos"; 	# Define your hostname.
+  networking.hostName = "nixos"; 	# Define your hostname.
 
   # Configure network proxy if necessary
   networking.proxy.default = "http://127.0.0.1:7890";

@@ -13,7 +13,7 @@
     in
     {
       nixosConfigurations = {
-        "fangn-nixos" = nixpkgs.lib.nixosSystem rec {
+        "nixos" = nixpkgs.lib.nixosSystem rec {
           specialArgs = {
             inherit inputs; 
             pkgs-unstable = import nixpkgs-unstable {

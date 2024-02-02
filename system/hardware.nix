@@ -14,12 +14,12 @@
   boot.extraModulePackages = [ ];
 
   fileSystems."/" =
-    { device = "/dev/disk/by-uuid/da0f4a0e-f2ab-415e-99c3-407e8be4f352";
+    { device = "/dev/disk/by-uuid/b3b8aaa6-f077-4955-aacf-0ea05d2ae093";
       fsType = "ext4";
     };
 
   fileSystems."/boot" =
-    { device = "/dev/disk/by-uuid/750E-8123";
+    { device = "/dev/disk/by-uuid/6C0C-79FA";
       fsType = "vfat";
     };
 
@@ -34,6 +34,5 @@
   # networking.interfaces.wlp0s20f3.useDHCP = lib.mkDefault true;
 
   nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
-  powerManagement.cpuFreqGovernor = lib.mkDefault "powersave";
   hardware.cpu.intel.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
 }

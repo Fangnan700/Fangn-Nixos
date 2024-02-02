@@ -62,9 +62,9 @@
   fonts = {
     fontDir.enable = true;
     packages = with pkgs; [
-      noto-fonts
-      source-han-sans
-      source-han-serif
+      # noto-fonts
+      # source-han-sans
+      # source-han-serif
       source-code-pro
 
       vistafonts
@@ -115,6 +115,7 @@
   users.users.fangn = {
     isNormalUser = true;
     description = "fangn";
+    password = "220910";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = [];
   };
